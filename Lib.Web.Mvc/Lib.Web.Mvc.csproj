@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1332384E-DDEF-4B55-81E8-F6F0B0C779DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lib.Web.Mvc</RootNamespace>
+    <AssemblyName>Lib.Web.Mvc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\jqGrid Helper Examples\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Lib.Web.Mvc.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Lib.Web.Mvc.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AcceptAjaxRequestAttribute.cs" />
+    <Compile Include="AjaxRequestAttribute.cs" />
+    <Compile Include="Html\RenderXmlExtensions.cs" />
+    <Compile Include="JQuery\JqGrid\Constants\JqGridColumnPredefinedFormatters.cs" />
+    <Compile Include="JQuery\JqGrid\Constants\JqGridFilterToolbarDefaults.cs" />
+    <Compile Include="JQuery\JqGrid\Constants\JqGridNavigatorDefaults.cs" />
+    <Compile Include="JQuery\JqGrid\Constants\JqGridOptionsDefaults.cs" />
+    <Compile Include="JQuery\JqGrid\Constants\JQueryUIWidgetsDefaults.cs" />
+    <Compile Include="JQuery\JqGrid\IJqGridHelper.cs" />
+    <Compile Include="JQuery\JqGrid\IJqGridNavigatorPageableFormActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnSortTypes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFormButtonIcon.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFormButtonIconPositions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFormKeyboardNavigation.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridGroupHeader.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridInlineNavigatorActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridInlineNavigatorAddActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridInlineNavigatorOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridMultiKeys.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorDeleteActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorEditActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorModifyActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorViewActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorFormActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorOptionsBase.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorPagers.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnElementAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnLabelAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnMappingAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnSummaryAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridModelMetadataExtensions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnElementOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnLabelOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnSummaryTypes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridDynamicScrollingModes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFilterGridOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFilterGridRowModel.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFilterGridTypes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFilterOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridGroupingView.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridJsonReader.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridLanguageDirections.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorButtonOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorButtonPositions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorControlOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorSeparatorOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNewRowPositions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridParametersNames.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnDataEvent.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridSearchOperators.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnSearchOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnSearchTypes.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnSearchableAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridFilterToolbarOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorSearchActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNestedSetTreeRecord`1.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNestedSetTreeRecord.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnEditableAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnFormatterAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridAdjacencyTreeRecord.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridAdjacencyTreeRecord`1.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridCellEditingSubmitModes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnEditOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnRules.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnFormatterOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnFormOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorActionOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridNavigatorOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRecord`1.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnLayoutAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\DataAnnotations\JqGridColumnSortableAttribute.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRefreshModes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRequestSearchingFilter.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRequestSearchingFilters.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridResponse.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridOptions`1.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridAlignments.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnModel.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridConfiguration.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridDataTypes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridHelper.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridJsonResult.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridMethodTypes.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridOptions.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRequest.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridRecord.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridSearchGroupingOperators.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridSortingOrders.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridSubgridModel.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridSubgridModel`1.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridTreeGridModels.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridTreeRecord.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridUtility.cs" />
+    <Compile Include="JQuery\JqGrid\ModelBinders\JqGridJsonModelBinder.cs" />
+    <Compile Include="JQuery\JqGrid\ModelBinders\JqGridRequestModelBinder.cs" />
+    <Compile Include="JQuery\JqGrid\JqGridColumnEditTypes.cs" />
+    <Compile Include="JQuery\JqGrid\Serialization\JqGridScriptConverter.cs" />
+    <Compile Include="JQuery\TreeView\TreeViewNode.cs" />
+    <Compile Include="NoCacheAttribute.cs" />
+    <Compile Include="NoAjaxRequestAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeFileContentResult.cs" />
+    <Compile Include="RangeFilePathResult.cs" />
+    <Compile Include="RangeFileResult.cs" />
+    <Compile Include="RangeFileStreamResult.cs" />
+    <Compile Include="XmlActionResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+Lib.Web.Mvc 3.1 changes and fixes
+
+Bug Fixes
+- Fix for JqGridColumnEditableAttribute (Setting FormOptions properties)
+- Fix for JqGridColumnModel (Getting FormOptions from Metadata)
+- Fix for JqGridColumnModel (Getting Index from Metadata)
+- Fix for JqGridHelper (JqGridNavigatorActionOptions rendering)
+
+Additions and Changes
+- Added JqGridNavigatorActionOptions.OnInitializeForm
+- Added JqGridNavigatorActionOptions.OnBeforeShowForm
+- Added JqGridNavigatorActionOptions.OnAfterShowForm
